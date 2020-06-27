@@ -1,0 +1,29 @@
+{
+  "name": "beerchaincore-message",
+  "main": "./beerchaincore-message.min.js",
+  "version": "1.0.3",
+  "homepage": "https://github.com/beerchain/beerchaincore-message",
+  "authors": [
+    "beerchain"
+  ],
+  "description": "beerchain Message Verification and Signing for Marbellacoincore",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "beerchain",
+    "bitcore",
+    "btc",
+    "satoshi",
+    "message",
+    "signing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
