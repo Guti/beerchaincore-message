@@ -1,50 +1,13 @@
 {
-  "_args": [
-    [
-      "git+https://git@github.com/beerchain/beerchaincore-message.git",
-      "/root/mynode"
-    ]
-  ],
-  "_from": "git+https://git@github.com/beerchain/beerchaincore-message.git",
-  "_id": "beerchaincore-message@1.0.3",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/beerchaincore-message",
-  "_phantomChildren": {},
-  "_requested": {
-    "hosted": {
-      "directUrl": "https://git@raw.githubusercontent.com/beerchain/beerchaincore-message/master/package.json",
-      "gitUrl": "git://git@github.com/beerchain/beerchaincore-message.git",
-      "httpsUrl": "git+https://git@github.com/beerchain/beerchaincore-message.git",
-      "shortcut": "github:beerchain/beerchaincore-message",
-      "ssh": "git@github.com:beerchain/beerchaincore-message.git",
-      "sshUrl": "git+ssh://git@github.com/beerchain/beerchaincore-message.git",
-      "type": "github"
-    },
-    "name": null,
-    "raw": "git+https://git@github.com/beerchain/beerchaincore-message.git",
-    "rawSpec": "git+https://git@github.com/beerchain/beerchaincore-message.git",
-    "scope": null,
-    "spec": "git+https://git@github.com/beerchain/beerchaincore-message.git",
-    "type": "hosted"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "git+https://git@github.com/beerchain/beerchaincore-message.git#ddcadee37c05928613357c48c37bc3c974e76631",
-  "_shasum": "a981bff7cf074cf27e9b44421c24612783573e44",
-  "_shrinkwrap": null,
-  "_spec": "git+https://git@github.com/beerchain/beerchaincore-message.git",
-  "_where": "/root/mynode",
   "author": {
     "email": "dev@bitpay.com",
     "name": "BitPay"
   },
   "bugs": {
-    "url": "https://github.com/beerchain/beerchaincore-message/issues"
+    "url": "https://github.com/guti/beerchaincore-message/issues"
   },
   "dependencies": {
-    "beerchaincore-lib": "git+https://github.com/beerchain/beerchaincore-lib.git#master"
+    "beerchaincore-lib": "git+https://github.com/guti/beerchaincore-lib.git#master"
   },
   "description": "beerchain Messages for Marbellacoincore",
   "devDependencies": {
@@ -53,8 +16,7 @@
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
   },
-  "gitHead": "ddcadee37c05928613357c48c37bc3c974e76631",
-  "homepage": "https://github.com/beerchain/beerchaincore-message#readme",
+  "homepage": "https://github.com/guti/beerchaincore-message#readme",
   "keywords": [
     "bitcoin",
     "bitcore",
@@ -71,7 +33,7 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beerchain/beerchaincore-message.git"
+    "url": "git+https://github.com/guti/beerchaincore-message.git"
   },
   "scripts": {
     "build": "gulp",
